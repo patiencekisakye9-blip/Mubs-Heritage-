@@ -1,0 +1,1 @@
+this involves the different infrastructure, the way the institute developed, services provided, historical background and the different founders,.there is also information concerning feedback from various students of the institute. and briefly explained content about references and everything
