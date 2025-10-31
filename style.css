@@ -1,0 +1,246 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white BLUISH gray;
+  color:DARK GRAY;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: DEEP navy blue;
+}
+
+
+   HEADER & NAVIGATION
+
+header {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.logo-img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: DARK blue;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a.active {
+  text-decoration: underline;
+  color: black;
+}
+
+nav a:hover {
+  color: RED;
+}
+
+
+   MAIN CONTENT
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.banner {
+  width: 90%;
+  max-width: 700px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px blue;
+}
+
+p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+
+   BUTTONS
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color:mediumblue
+}
+
+
+   LANDMARK CARDS
+
+.card {
+  background-color: white;
+  border: 1px solid LIGHT GRAY;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px BLACK;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  color: DEEP NAVY BLUE;
+  margin-bottom: 5px;
+}
+
+
+   FEEDBACK & SURVEY FORM
+
+.feedback {
+  background-color: WHITE;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 40px;
+  box-shadow: 0 2px 6px BLACK;
+}
+
+.feedback h2 {
+  text-align: center;
+  color: DEEP NAVY blue;
+  margin-bottom: 10px;
+}
+
+.feedback p {
+  text-align: center;
+  color: DARK GRAY;
+  font-size: 16px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[list], textarea, input[type="text"], input[type="email"] {
+  width: 90%;
+  max-width: 600px;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid LIGHT gray;
+  border-radius: 5px;
+  display: block;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: DEEP NAVY blue;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  
+  display: block;
+  margin: 15px auto;
+}
+
+input[type="submit"]:hover {
+  background-color: mediumblue;
+}
+
+
+   CONTACT PAGE
+
+.contact {
+  background-color: WHITE;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px BLACK;
+}
+
+.contact h2 {
+  color: DEEP NAVY blue;
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+  color: DARK grey;
+}
+
+
+   FOOTER
+
+footer {
+  background-color: DEEP NAVY BLUE;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer a {
+  color: GOLDEN yellow;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  input[list], textarea, input[type="text"], input[type="email"] {
+    width: 100%;
+  }
+
+  .card {
+    margin: 10px 0;
+  }
+
+
